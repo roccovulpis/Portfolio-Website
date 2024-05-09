@@ -1,0 +1,12 @@
+body {
+    background-color: hsl(0, 0%, 80%);
+}
+.navbar-brand, .nav-link {
+    color: black;
+    font-size: large;
+}
+#photo {
+    display: flex;
+    padding-left: 20px;
+    width: 300px;
+}
