@@ -3,7 +3,7 @@ body {
 }
 .navbar-brand {
     color: black;
-    font-size: x-large;
+    font-size: large;
 }
 .nav-link {
     color: black;
@@ -19,3 +19,9 @@ body {
     margin-top: 20px; 
     justify-content: center;
 }
+#carouselExampleIndicators {
+    max-width: 600px; /* Adjust this value as needed */
+    max-height: 800px;
+    margin: auto; /* Centers the carousel if the page width is larger */
+}
+
