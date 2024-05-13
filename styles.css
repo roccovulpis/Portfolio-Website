@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 75%);
 }
 .navbar-brand {
     color: black;
@@ -20,8 +20,8 @@ body {
     justify-content: center;
 }
 #carouselExampleIndicators {
-    max-width: 600px; /* Adjust this value as needed */
+    max-width: 600px; 
     max-height: 800px;
-    margin: auto; /* Centers the carousel if the page width is larger */
+    margin: auto; 
 }
 
