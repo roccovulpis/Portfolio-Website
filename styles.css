@@ -24,4 +24,9 @@ body {
     max-height: 800px;
     margin: auto; 
 }
+.carousel-caption-below {
+    position: static;
+    text-align: center;
+    padding-top: 10px;
+  }
 
