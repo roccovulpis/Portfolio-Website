@@ -1,5 +1,10 @@
 body {
     background-color: hsl(0, 0%, 75%);
+    height: 100vh;
+}
+.navbar {
+    background-color: hsl(0, 0%, 60%); 
+    border-bottom: 1px solid grey; 
 }
 .navbar-brand {
     color: black;
@@ -11,9 +16,11 @@ body {
 }
 #photo {
     display: flex;
+    padding-top: 40px;
     padding-left: 20px; 
-    width: 300px; 
+    width: 400px; 
     height: 300px;
+    cursor: pointer;
 }
 .text-center {
     margin-top: 20px; 
@@ -28,5 +35,5 @@ body {
     position: static;
     text-align: center;
     padding-top: 10px;
-  }
+}
 
