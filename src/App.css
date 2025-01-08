@@ -1,3 +1,8 @@
+/* General Global Styles */
 body {
+    border: 2px solid red;
     background-color: black;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
