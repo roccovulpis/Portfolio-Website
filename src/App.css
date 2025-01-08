@@ -1,6 +1,6 @@
 /* General Global Styles */
 body {
-    border: 2px solid red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
     margin: 0;
     justify-content: center;
