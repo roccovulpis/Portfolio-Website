@@ -10,6 +10,7 @@ import jsImg from '../assets/technology-logos/js.webp'
 import htmlImg from '../assets/technology-logos/html5.webp'
 import cssImg from '../assets/technology-logos/css.webp'
 import sqlImg from '../assets/technology-logos/sql.png'
+import octaveImg from '../assets/technology-logos/octave.png'
 
 import '../styles/SkillGrid.css'
 
@@ -73,10 +74,10 @@ export default function SkillGrid() {
         imgBgColor ="hsl(0, 0.00%, 90.20%)"
       />
       <SkillCard 
-        img={gitImg}
-        name='Git'
-        desc='Version Cotrol'
-        imgBgColor ="rgba(240, 80, 50, 0.2)"
+        img={octaveImg}
+        name='GNU Octave'
+        desc='Scientific Programming Language'
+        imgBgColor ='rgba(0, 122, 204, 0.2)'
       />
     </div>
     </>

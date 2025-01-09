@@ -29,13 +29,19 @@ ul {
     align-items: center; 
 }
 
+.nav-brand {
+    backdrop-filter: blur(5px);
+}
+
 .middle-nav-links {
     margin: auto;
     align-items: center;
+    backdrop-filter: blur(5px);
 }
 
 .contact-nav-link {
     margin-right: 1rem;
+    backdrop-filter: blur(5px);
 }
 
 a {
