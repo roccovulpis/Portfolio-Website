@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import './App.css'
 import HomeBody from './components/HomeBody'
 import Projects from './components/Projects'
+import SkillGrid from './components/SkillGrid'
 import Footer from './components/Footer'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <HomeBody />
       {/* <Background /> */}
+      <SkillGrid />
       <Footer />
     </>
   )

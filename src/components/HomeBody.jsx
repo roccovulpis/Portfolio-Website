@@ -16,9 +16,10 @@ export default function HomeBody() {
           <h1>Rocco Vulpis</h1>
           <h2>Software Developer</h2>
           <span><FaLocationDot /> New Jersey, USA</span>
-          <p className='desc-tag'>I created this website to showcase my skills and 
-            projects I've worked on in school and on my spare time.
-            </p>
+          <p className='desc-tag'>I created this website to highlight my 
+            skills and showcase the projects I've completed throughout school 
+            and on my personal time.
+          </p>
         </div>
         <div>
           <div className='socials-container'>

@@ -1,8 +1,7 @@
 /* General Global Styles */
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-color: rgb(0, 10, 34);
+    
     margin: 1rem;
-    justify-content: center;
-    align-items: center;
 }
