@@ -14,7 +14,7 @@ export default function HomeBody() {
         </div>
         <div className='desc-container'>
           <h1>Rocco Vulpis</h1>
-          <h2>Software Developer</h2>
+          <h3>Software Developer</h3>
           <span><FaLocationDot /> New Jersey, USA</span>
           <p className='desc-tag'>I created this website to highlight my 
             skills and showcase the projects I've completed throughout school 
