@@ -4,6 +4,7 @@ import '../styles/HomeBody.css'
 import { FaLocationDot } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { GoDownload } from "react-icons/go";
 
 export default function HomeBody() {
   return (
@@ -16,18 +17,19 @@ export default function HomeBody() {
           <h1>Rocco Vulpis</h1>
           <h3>Software Developer</h3>
           <span><FaLocationDot /> New Jersey, USA</span>
-          <p className='desc-tag'>I created this website to highlight my 
-            skills and showcase the projects I've completed throughout school 
+          <p className='desc-tag'>After earning my Bachelor's Degree in Computer Science, I created this website to highlight my
+            skills and showcase the projects I've completed throughout school
             and on my free time.
           </p>
         </div>
         <div>
-          <div className='home-socials-container'>
+          <div className='home-links-container'>
             <h2>Socials</h2>
             <span className='social-span'>
-              <button><CiLinkedin /></button>
-              <button><FaGithub /></button>
+              <button className="linkedin"><CiLinkedin /></button>
+              <button className="github"><FaGithub /></button>
             </span>
+            <button className='cv-btn'><GoDownload className='dl-logo' />Download CV</button>
           </div>
 
         </div>

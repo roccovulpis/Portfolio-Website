@@ -22,8 +22,8 @@ export default function ProjectCard({ img, title, description, technologies }) {
         )}
       </div>
       <div className='project-btns'>
-        <button><GoArrowUpRight /></button>
-        <button><FaGithub /></button>
+        <button className="view-project-btn"><GoArrowUpRight /></button>
+        <button className="github"><FaGithub /></button>
       </div>
     </div>
   );
