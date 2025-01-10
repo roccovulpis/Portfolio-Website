@@ -1,6 +1,6 @@
 import React from 'react'
 import selfImg from '../assets/site-photos/me.jpg'
-import '../styles/Homebody.css'
+import '../styles/HomeBody.css'
 import { FaLocationDot } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
