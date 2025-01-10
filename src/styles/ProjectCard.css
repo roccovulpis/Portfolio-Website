@@ -1,0 +1,51 @@
+.project-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem; 
+    align-items: center; 
+    justify-content: flex-start; 
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: transparent;
+    box-sizing: border-box; 
+    height: auto; 
+    width: 100%; 
+    margin: 0;
+    overflow: visible; 
+    transition: background-color 0.5s ease, border-color 0.2s ease;
+}
+
+.project-container:hover {
+    background-color: hsl(0, 0%, 40%);
+    border-color: grey;
+}
+
+.project-description-container {
+    width: 100%; 
+    padding: 1rem; 
+    box-sizing: border-box;
+}
+
+.project-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Make the container span the full width */
+    height: 300px; /* Set a fixed height for uniformity */
+    overflow: hidden; /* Prevent content overflow */
+    border-radius: 10px;
+    position: relative; /* Enable centering adjustments */
+}
+
+.project-img-container > img {
+    max-width: 100%; /* Limit the width to the container's width */
+    max-height: 100%; /* Limit the height to the container's height */
+    width: auto; /* Allow natural width scaling */
+    height: auto; /* Allow natural height scaling */
+    object-fit: contain; /* Ensure the whole image fits inside while keeping its aspect ratio */
+    position: absolute; /* Position the image absolutely to center it */
+    top: 50%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the absolute positioning */
+}

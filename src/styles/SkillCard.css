@@ -1,5 +1,5 @@
 /* Skill Card Styles */
-.card-container {
+.skill-card-container {
     display: flex;
     flex-direction: row; 
     gap: 1rem; 
@@ -9,17 +9,17 @@
     border-radius: 10px;
     padding: 1rem;
     background-color: transparent;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
+    transition: background-color 0.5s ease, border-color 0.2s ease;
     width: 100%; 
     max-width: 100%;
     box-sizing: border-box; 
 }
 
-.card-container:hover {
+.skill-card-container:hover {
     background-color: hsl(0, 0%, 40%);
     border-color: grey;
 }
-.card-img-container {
+.skill-card-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,26 +29,26 @@
     width: fit-content; 
 }
 
-.card-img-container img {
+.skill-card-img-container img {
     width: 30px; 
     height: 30px;
     object-fit: contain; 
 }
 
-.card-text-container {
+.skill-card-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.card-text-container h4 {
+.skill-card-text-container h4 {
     font-size: 1rem;
     font-weight: 500;
     margin: 0;
     color: white;
 }
 
-.card-text-container p {
+.skill-card-text-container p {
     font-size: 0.9rem;
     color: white;
     margin: 0;

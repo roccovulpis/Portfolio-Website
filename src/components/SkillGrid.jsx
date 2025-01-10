@@ -10,6 +10,7 @@ import jsImg from '../assets/technology-logos/js.webp'
 import htmlImg from '../assets/technology-logos/html5.webp'
 import cssImg from '../assets/technology-logos/css.webp'
 import sqlImg from '../assets/technology-logos/sql.webp'
+import cSharpImg from '../assets/technology-logos/c-sharp.webp'
 import octaveImg from '../assets/technology-logos/octave.png'
 
 import '../styles/SkillGrid.css'
@@ -54,6 +55,12 @@ export default function SkillGrid() {
         name='Python'
         desc='Programming Language'
         imgBgColor ="rgba(53, 114, 165, 0.2)"
+      />
+      <SkillCard 
+        img={cSharpImg}
+        name='C#'
+        desc='Programming Language'
+        imgBgColor ='rgba(166, 89, 185, 0.44)'
       />
       <SkillCard 
         img={sqlImg}
