@@ -4,18 +4,3 @@ body {
     background-color: rgb(0, 10, 34);
     margin: 1rem;
 }
-
-#root {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (max-width: 600px) {
-    #root {
-        flex-direction: column; /* Stack elements on smaller screens */
-        padding: 0.5rem;
-    }
-}
