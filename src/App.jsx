@@ -13,7 +13,7 @@ function App() {
     <>
       <NavbarComponent />
       <HomeBody />
-      {/* <Background /> */}
+      <Background />
       <SkillGrid />
       <ProjectsGrid />
       <Footer />
