@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
 import '../styles/ProjectCard.css';
 
 export default function ProjectCard({ img, title, description, technologies }) {
@@ -19,7 +20,10 @@ export default function ProjectCard({ img, title, description, technologies }) {
             <strong>Technologies:</strong> {technologies}
           </p>
         )}
-        <button><FaGithub/></button>
+      </div>
+      <div className='project-btns'>
+        <button><GoArrowUpRight /></button>
+        <button><FaGithub /></button>
       </div>
     </div>
   );

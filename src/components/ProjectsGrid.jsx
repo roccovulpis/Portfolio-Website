@@ -3,6 +3,8 @@ import ProjectCard from './ProjectCard';
 import headlinersImg from '../assets/project-logos/headliners-home.png';
 import splitzrImg from '../assets/project-logos/splitzr.png';
 import a from '../assets/project-logos/jfreechart.jpg';
+import montyImg from '../assets/project-logos/monty-hall.png';
+import calcImg from '../assets/project-logos/calculator.png';
 import '../styles/ProjectsGrid.css';
 
 export default function ProjectsGrid() {
@@ -26,15 +28,22 @@ export default function ProjectsGrid() {
         />
         <ProjectCard
           img={a}
-          title="JFreeChart Analysis"
+          title="Plotter Salter Smoother"
           description="Data visualization project using JFreeChart library"
           technologies="Java, JFreeChart"
         />
         <ProjectCard
-          img={a}
-          title="Another JFreeChart Project"
+          img={montyImg}
+          title="Monty Hall Simulation"
           description="Extended analysis using JFreeChart for visualizing trends"
           technologies="Java"
+        />
+        <ProjectCard
+          img={calcImg}
+          title="Calculator"
+          description="The site you are on right now"
+          technologies="HTML, CSS, JavaScript"
+          githubLink="https://github.com/your-repo/portfolio"
         />
         <ProjectCard
           img={headlinersImg}
