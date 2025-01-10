@@ -1,5 +1,5 @@
 import Background from './components/Background'
-import Navbar from './components/Navbar'
+import NavbarComponent from './components/Navbar'
 import HomeBody from './components/HomeBody'
 import SkillGrid from './components/SkillGrid'
 import ProjectsGrid from './components/ProjectsGrid'
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <NavbarComponent />
       <HomeBody />
       {/* <Background /> */}
       <SkillGrid />
