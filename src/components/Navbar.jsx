@@ -24,6 +24,9 @@ export default function Navbar() {
                 <li className='link'>
                     <a onClick={() => scrollToSection('projects')}>Projects</a>
                 </li>
+                <li className='link'>
+                    <a onClick={() => scrollToSection('contact')}>Contact</a>
+                </li>
             </ul>
         </nav>
     );
