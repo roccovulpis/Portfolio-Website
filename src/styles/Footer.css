@@ -17,6 +17,12 @@ footer {
 }
 
 #react-logo {
+    margin-left: 5px;
     height: 10px;
-    width: 12px;
+    width: 11px;
+}
+
+#vercel-logo {
+    width: 50px;
+    margin-left: 5px;
 }
