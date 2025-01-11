@@ -54,14 +54,13 @@
 .project-btns {
     display: flex;
     justify-content: flex-start;
-    width: 96%;
-    gap: 10px;
+    width: 98%;
     margin-top: -2rem;
 }
 
-.project-btns > button {
-    height: 40px;
-    width: 40px;
+.project-btns button {
+    height: 45px;
+    width: 45px;
     font-size: 2.5rem;
     border: none;
     border-radius: 5px;
@@ -72,21 +71,21 @@
     color: white;
 }
 
-.project-btns > button:hover {
+.project-btns button:hover {
     transform: scale(1.2); 
     cursor: pointer;
 }
 
 /* GitHub Button */
-.project-btns > button.github {
+.project-btns button.github {
     background-color: #333; /* GitHub dark grey */
 }
 
 /* GitHub Button */
-.project-btns > button.view-project-btn {
+.project-btns button.view-project-btn {
     background-color: blue; /* GitHub dark grey */
 }
 
-.project-btns > button.view-project-btn {
+.project-btns button.view-project-btn {
     background-color: blue; /* Black for GitHub on hover */
 }

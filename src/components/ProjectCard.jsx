@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import '../styles/ProjectCard.css';
 
-export default function ProjectCard({ img, title, description, technologies }) {
+export default function ProjectCard({ img, title, description, technologies, githubLink }) {
   return (
     <div className="project-container">
       {/* Image Section */}
@@ -22,8 +22,12 @@ export default function ProjectCard({ img, title, description, technologies }) {
         )}
       </div>
       <div className='project-btns'>
-        <button className="view-project-btn"><GoArrowUpRight /></button>
-        <button className="github"><FaGithub /></button>
+        <a href="">
+          <button className="view-project-btn"><GoArrowUpRight /></button>
+        </a>
+        <a href={githubLink} target='_blank'>
+          <button className="github"><FaGithub /></button>
+        </a>
       </div>
     </div>
   );

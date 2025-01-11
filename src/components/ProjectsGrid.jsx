@@ -5,6 +5,7 @@ import splitzrImg from '../assets/project-logos/splitzr.png';
 import a from '../assets/project-logos/jfreechart.jpg';
 import montyImg from '../assets/project-logos/monty-hall.png';
 import calcImg from '../assets/project-logos/calculator.png';
+import portImg from '../assets/project-logos/portfolio-site.png';
 import '../styles/ProjectsGrid.css';
 
 export default function ProjectsGrid() {
@@ -17,40 +18,42 @@ export default function ProjectsGrid() {
           title="Headliners"
           description="Appointment scheduling app built for a local barbershop"
           technologies="Flask, Bootstrap"
-          githubLink="https://github.com/your-repo/headliners"
+          githubLink="https://github.com/roccovulpis/Headliners"
         />
         <ProjectCard
           img={splitzrImg}
           title="Splitzr"
           description="Bill-splitting app to simplify sharing expenses among friends"
-          technologies="React, Node.js"
-          githubLink="https://github.com/your-repo/splitzr"
+          technologies="React"
+          githubLink="https://github.com/roccovulpis/Splitzr"
         />
         <ProjectCard
           img={a}
           title="Plotter Salter Smoother"
           description="Data visualization project using JFreeChart library"
           technologies="Java, JFreeChart"
+          githubLink="https://github.com/roccovulpis/Probability-and-Applied-Stats-Project-2.1/tree/main/PlottingSaltingSmoothing"
         />
         <ProjectCard
           img={montyImg}
           title="Monty Hall Simulation"
           description="Extended analysis using JFreeChart for visualizing trends"
           technologies="Java"
+          githubLink="https://github.com/roccovulpis/prob-and-applied-stats/tree/main/JavaProjects/MontyHallProgram"
         />
         <ProjectCard
           img={calcImg}
           title="Calculator"
           description="The site you are on right now"
           technologies="HTML, CSS, JavaScript"
-          githubLink="https://github.com/your-repo/portfolio"
+          githubLink="https://github.com/roccovulpis/Digital-Calculator"
         />
         <ProjectCard
-          img={headlinersImg}
+          img={portImg}
           title="Portfolio"
           description="The site you are on right now"
-          technologies="React, Tailwind CSS"
-          githubLink="https://github.com/your-repo/portfolio"
+          technologies="React, Vercel"
+          githubLink="https://github.com/roccovulpis/Portfolio-Website"
         />
       </div>
     </div>
