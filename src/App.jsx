@@ -1,11 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Background from './components/Background'
 import NavbarComponent from './components/Navbar'
-import HomeBody from './components/HomeBody'
-import SkillGrid from './components/SkillGrid'
-import ProjectsGrid from './components/ProjectsGrid'
-import Footer from './components/Footer'
+import Home from './pages/Home'
+import AboutMe from './pages/AboutMe'
+
 import './App.css'
 
 function App() {
@@ -16,6 +13,7 @@ function App() {
         <NavbarComponent />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/aboutm" element={<AboutMe />} />
         </Routes>
       </Router>
     </>

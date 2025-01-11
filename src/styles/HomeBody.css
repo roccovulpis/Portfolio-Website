@@ -58,6 +58,17 @@ img {
     margin-top: 0;
 }
 
+.desc-tag #courses-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.desc-tag #courses-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 /* Links Container */
 .home-links-container {
     flex: 1;
