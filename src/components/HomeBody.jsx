@@ -1,6 +1,6 @@
-import React from 'react'
-import selfImg from '../assets/site-photos/me.jpg'
-import '../styles/HomeBody.css'
+import React from 'react';
+import selfImg from '../assets/site-photos/me.jpg';
+import '../styles/HomeBody.css';
 import { FaLocationDot } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -26,15 +26,27 @@ export default function HomeBody() {
           <div className='home-links-container'>
             <h2>Socials</h2>
             <span className='social-span'>
-              <button className="linkedin"><CiLinkedin /></button>
-              <button className="github"><FaGithub /></button>
+              <a
+                className="linkedin"
+                href="https://www.linkedin.com/in/rocco-vulpis"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CiLinkedin />
+              </a>
+              <a
+                className="github"
+                href="https://github.com/roccovulpis"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
             </span>
             <button className='cv-btn'><GoDownload className='dl-logo' />Download CV</button>
           </div>
-
         </div>
       </div>
-
     </div>
-  )
+  );
 }
