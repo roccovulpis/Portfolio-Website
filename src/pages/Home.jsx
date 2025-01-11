@@ -2,6 +2,7 @@ import React from 'react';
 import HomeBody from '../components/HomeBody';
 import SkillGrid from '../components/SkillGrid';
 import ProjectsGrid from '../components/ProjectsGrid';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -16,7 +17,10 @@ export default function Home() {
       <section id="projects">
         <ProjectsGrid />
       </section>
-      <Footer />
+      <section id="contact">
+        <Contact />
+      </section>
+        <Footer />
     </div>
   );
 }

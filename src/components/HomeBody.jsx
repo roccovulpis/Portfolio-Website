@@ -19,7 +19,7 @@ export default function HomeBody() {
           <span><FaLocationDot /> New Jersey, USA</span>
           <p className='desc-tag'>After earning my Bachelor's Degree in Computer Science, I created this website to highlight my
             skills and showcase the projects I've completed throughout school
-            and on my free time.
+            and in my free time.
           </p>
         </div>
         <div>
