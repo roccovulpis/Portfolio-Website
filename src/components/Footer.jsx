@@ -8,7 +8,7 @@ export default function Footer() {
 
     <footer>
       <div className='footer-content-container'>
-        <p>Made with <img id="react-logo" src={reactImg} alt="React logo" />&thinsp; React and 
+        <p>Built with <img id="react-logo" src={reactImg} alt="React logo" />&thinsp; React and 
           <svg
             id='vercel-logo'
             xmlns="http://www.w3.org/2000/svg"
