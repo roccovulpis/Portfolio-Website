@@ -25,11 +25,13 @@ export default function ProjectCard({ img, title, description, technologies, git
           </p>
         )}
         <div className="project-btns">
-          <a href="">
-            <button className="view-project-btn"><GoArrowUpRight /></button>
+          {/* View Project Button */}
+          <a href="" className="view-project-btn" target="_blank" rel="noopener noreferrer">
+            <GoArrowUpRight />
           </a>
-          <a href={githubLink} target='_blank'>
-            <button className="github"><FaGithub /></button>
+          {/* GitHub Link */}
+          <a href={githubLink} className="github" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
           </a>
         </div>
       </div>
