@@ -84,6 +84,14 @@
 
 }
 
+.project-btns button > svg {
+    display: block; /* Ensures Safari renders the SVG properly */
+    width: 100%; /* Adjust to match the button size */
+    height: 100%; /* Match the button size */
+    color: inherit; /* Inherit the button's color */
+    fill: currentColor; /* Use current text color for the icon */
+}
+
 .project-btns button {
     height: 45px;
     width: 45px;
