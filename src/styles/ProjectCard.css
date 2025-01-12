@@ -128,10 +128,6 @@
         height: 200px;
     }
 
-    .project-description-container {
-        padding: 0.5rem 0.5rem 0.25rem;
-    }
-
     .project-footer {
         padding: 0;
     }
@@ -159,11 +155,11 @@
     }
 
     .project-description-container {
-        padding: 0.25rem 0.25rem 0.1rem;
+      padding: 0.5rem;
     }
 
     .project-footer {
-        padding: 0;
+        padding: 0.5rem;
     }
 
     .project-technologies {

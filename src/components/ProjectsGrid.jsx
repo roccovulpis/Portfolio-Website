@@ -37,14 +37,14 @@ export default function ProjectsGrid() {
         <ProjectCard
           img={montyImg}
           title="Monty Hall Simulation"
-          description="Extended analysis using JFreeChart for visualizing trends"
+          description="Simulation of the Monty Hall problem"
           technologies="Java"
           githubLink="https://github.com/roccovulpis/prob-and-applied-stats/tree/main/JavaProjects/MontyHallProgram"
         />
         <ProjectCard
           img={calcImg}
           title="Calculator"
-          description="The site you are on right now"
+          description="Calculator with basic functionalities"
           technologies="HTML, CSS, JavaScript"
           githubLink="https://github.com/roccovulpis/Digital-Calculator"
         />

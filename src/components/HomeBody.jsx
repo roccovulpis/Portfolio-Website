@@ -17,7 +17,7 @@ export default function HomeBody() {
           <h1>Rocco Vulpis</h1>
           <h3>Software Developer</h3>
           <span><FaLocationDot /> New Jersey, USA</span>
-          <p className='desc-tag'>After earning my <a id='courses-link' href="/aboutm">Bachelor's Degree in Computer Science</a>, I created this website to highlight my
+          <p className='desc-tag'>After earning my Bachelor's Degree in Computer Science, I created this website to highlight my
             skills and showcase the projects I've completed throughout school
             and in my free time.
           </p>
