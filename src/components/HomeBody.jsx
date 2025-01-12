@@ -7,6 +7,14 @@ import { FaGithub } from "react-icons/fa";
 import { GoDownload } from "react-icons/go";
 
 export default function HomeBody() {
+  const handleDownload = () => {
+    const fileUrl = '/resume/Rocco_Vulpis_Resume.pdf'; // Replace with the actual file path in your public folder
+    const anchor = document.createElement('a');
+    anchor.href = fileUrl;
+    anchor.download = 'Rocco-Vulpis-Resume.pdf'; // Suggest a filename for download
+    anchor.click();
+  };
+
   return (
     <div className='home-body-container'>
       <div className='home-body-card'>
@@ -43,7 +51,10 @@ export default function HomeBody() {
                 <FaGithub />
               </a>
             </span>
-            <button className='cv-btn'><GoDownload className='dl-logo' />Download CV</button>
+            {/* Updated Button */}
+            <button className='cv-btn' onClick={handleDownload}>
+              <GoDownload className='dl-logo' />Download CV
+            </button>
           </div>
         </div>
       </div>
