@@ -24,7 +24,7 @@ export default function ProjectsGrid() {
           img={splitzrImg}
           title="Splitzr"
           description="Bill-splitting app to simplify sharing expenses among friends"
-          technologies="React"
+          technologies="React, CSS"
           githubLink="https://github.com/roccovulpis/Splitzr"
         />
         <ProjectCard
@@ -52,7 +52,7 @@ export default function ProjectsGrid() {
           img={portImg}
           title="Portfolio"
           description="The site you are on right now"
-          technologies="React, Vercel"
+          technologies="React, CSS, Vercel"
           githubLink="https://github.com/roccovulpis/Portfolio-Website"
         />
       </div>
