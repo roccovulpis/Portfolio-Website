@@ -1,7 +1,7 @@
 import React from 'react';
+import '../styles/ProjectCard.css';
 import { FaGithub } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
-import '../styles/ProjectCard.css';
 
 export default function ProjectCard({ img, title, description, technologies, githubLink }) {
   return (
