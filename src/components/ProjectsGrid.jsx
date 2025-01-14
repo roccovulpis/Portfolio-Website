@@ -37,7 +37,8 @@ export default function ProjectsGrid() {
         <ProjectCard
           img={montyImg}
           title="Monty Hall Simulation"
-          description="Simulation of the Monty Hall problem"
+          description="Simulation of the Monty Hall problem to determine the probability of winning when 
+                        the user either keeps their initial door choice or switches doors based on 10,000 runs."
           technologies="Java"
           githubLink="https://github.com/roccovulpis/prob-and-applied-stats/tree/main/JavaProjects/MontyHallProgram"
         />

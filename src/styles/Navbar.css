@@ -4,7 +4,7 @@ nav {
     display: flex;
     font-size: 1.5rem;
     align-items: center;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -21,6 +21,10 @@ ul {
     list-style: none;
     border-radius: 20px;
     box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap; /* Allows items to stack */
+    justify-content: center; /* Center items on smaller screens */
 }
 
 .link {
@@ -57,4 +61,14 @@ a {
 .link:hover a {
     --underline-width: 100%; 
     cursor: pointer;
+}
+
+@media (max-width: 728px) {
+    nav {
+        font-size: 1rem;
+    }
+
+    #contact-link {
+        display: none;
+    }
 }
