@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import headlinersImg from '../assets/project-logos/headliners-home.png';
 import splitzrImg from '../assets/project-logos/splitzr.png';
@@ -6,9 +6,16 @@ import a from '../assets/project-logos/jfreechart.jpg';
 import montyImg from '../assets/project-logos/monty-hall.png';
 import calcImg from '../assets/project-logos/calculator.png';
 import portImg from '../assets/project-logos/portfolio-site.png';
+import weighImg from '../assets/project-logos/weighin.png';
 import '../styles/ProjectsGrid.css';
 
 export default function ProjectsGrid() {
+  const [showMore, setShowMore] = useState(false);
+
+  function toggleShowMore() {
+    setShowMore((prevShowMore) => !prevShowMore);
+  }
+
   return (
     <div className="projects-grid-section">
       <h1>My Projects</h1>
@@ -28,20 +35,20 @@ export default function ProjectsGrid() {
           githubLink="https://github.com/roccovulpis/Splitzr"
         />
         <ProjectCard
+          img={weighImg}
+          title="Weekly Weigh In"
+          description="Website that allows users to log their weights, set goals, and collaborate or compete with friends"
+          technologies="Flask, Bootstrap"
+          githubLink=" https://github.com/roccovulpis/Weekly-Weigh-In"
+        />
+        <ProjectCard
           img={a}
           title="Plotter Salter Smoother"
           description="Data visualization project using JFreeChart library"
           technologies="Java, JFreeChart"
           githubLink="https://github.com/roccovulpis/Probability-and-Applied-Stats-Project-2.1/tree/main/PlottingSaltingSmoothing"
         />
-        <ProjectCard
-          img={montyImg}
-          title="Monty Hall Simulation"
-          description="Simulation of the Monty Hall problem to determine the probability of winning when 
-                        the user either keeps their initial door choice or switches doors based on 10,000 runs."
-          technologies="Java"
-          githubLink="https://github.com/roccovulpis/prob-and-applied-stats/tree/main/JavaProjects/MontyHallProgram"
-        />
+
         <ProjectCard
           img={calcImg}
           title="Calculator"
@@ -56,7 +63,21 @@ export default function ProjectsGrid() {
           technologies="React, CSS, Vercel"
           githubLink="https://github.com/roccovulpis/Portfolio-Website"
         />
+        {showMore && (
+          <>
+            <ProjectCard
+              img={montyImg}
+              title="Monty Hall Simulation"
+              description="Simulation of the Monty Hall problem based on 10,000 runs"
+              technologies="Java"
+              githubLink="https://github.com/roccovulpis/prob-and-applied-stats/tree/main/JavaProjects/MontyHallProgram"
+            />
+          </>
+        )}
       </div>
+      <button className='show-btn' onClick={toggleShowMore}>
+        {showMore ? 'Show Less' : 'Show More'}
+      </button>
     </div>
   );
 }

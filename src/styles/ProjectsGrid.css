@@ -1,15 +1,36 @@
 .projects-grid-section {
     margin-top: 6rem;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects-grid-container {
     display: grid;
     max-width: 90%; 
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
     gap: 2rem;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.projects-grid-section .show-btn {
+    height: 50px;
+    width: 150px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid grey;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-grid-section .show-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* Media Query for Smaller Screens */
