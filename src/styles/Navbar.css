@@ -59,10 +59,12 @@ a {
     cursor: pointer;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 425px) {
     nav {
         font-size: 1rem;
     }
 
-   
+    #contact-link {
+        display: none;
+    }
 }
