@@ -8,11 +8,11 @@ export default function ProjectCard({ img, title, description, technologies, git
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate('/project'); // Redirects to the project page
+    navigate('/project'); 
   };
 
   const stopPropagation = (event) => {
-    event.stopPropagation(); // Prevents the event from propagating to the card click handler
+    event.stopPropagation(); 
   };
 
   return (
@@ -36,14 +36,14 @@ export default function ProjectCard({ img, title, description, technologies, git
           </p>
         )}
         <div className="project-btns">
-          {/* View Project Button */}
+          {/* View Project Button
           <Link
             className="view-project-btn"
             to="/project"
             onClick={stopPropagation}
           >
             <GoArrowUpRight />
-          </Link>
+          </Link> */}
 
           {/* GitHub Link */}
           <a
