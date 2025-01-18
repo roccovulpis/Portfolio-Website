@@ -41,30 +41,29 @@ export default function ProjectsGrid() {
           technologies="Flask, Bootstrap"
           githubLink=" https://github.com/roccovulpis/Weekly-Weigh-In"
         />
-        <ProjectCard
-          img={a}
-          title="Plotter Salter Smoother"
-          description="Data visualization project using JFreeChart library"
-          technologies="Java, JFreeChart"
-          githubLink="https://github.com/roccovulpis/Probability-and-Applied-Stats-Project-2.1/tree/main/PlottingSaltingSmoothing"
-        />
-
-        <ProjectCard
-          img={calcImg}
-          title="Calculator"
-          description="Calculator with basic functionalities"
-          technologies="HTML, CSS, JavaScript"
-          githubLink="https://github.com/roccovulpis/Digital-Calculator"
-        />
-        <ProjectCard
-          img={portImg}
-          title="Portfolio"
-          description="The site you are on right now"
-          technologies="React, CSS, Vercel"
-          githubLink="https://github.com/roccovulpis/Portfolio-Website"
-        />
         {showMore && (
           <>
+            <ProjectCard
+              img={calcImg}
+              title="Calculator"
+              description="Calculator with basic functionalities"
+              technologies="HTML, CSS, JavaScript"
+              githubLink="https://github.com/roccovulpis/Digital-Calculator"
+            />
+            <ProjectCard
+              img={portImg}
+              title="Portfolio"
+              description="The site you are on right now"
+              technologies="React, CSS, Vercel"
+              githubLink="https://github.com/roccovulpis/Portfolio-Website"
+            />
+            <ProjectCard
+              img={a}
+              title="Plotter Salter Smoother"
+              description="Data visualization project using JFreeChart library"
+              technologies="Java, JFreeChart"
+              githubLink="https://github.com/roccovulpis/Probability-and-Applied-Stats-Project-2.1/tree/main/PlottingSaltingSmoothing"
+            />
             <ProjectCard
               img={montyImg}
               title="Monty Hall Simulation"

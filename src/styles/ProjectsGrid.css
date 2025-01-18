@@ -9,7 +9,7 @@
 
 .projects-grid-container {
     display: grid;
-    max-width: 90%; 
+    max-width: 95%; 
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
     gap: 2rem;
     margin: 0 auto;
