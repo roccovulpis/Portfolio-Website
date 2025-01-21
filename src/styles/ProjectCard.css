@@ -109,11 +109,14 @@
 }
 
 /* View Project Button */
-.project-btns a.view-project-btn {
+.project-btns a.view-live-project-btn {
+    font-size: 1.1rem;
+    height: 35px;
+    width: 55px;
     background-color: blue;
 }
 
-.project-btns a.view-project-btn:hover {
+.project-btns a.view-live-project-btn:hover {
     background-color: darkblue;
 }
 

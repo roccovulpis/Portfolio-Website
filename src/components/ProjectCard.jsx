@@ -4,15 +4,15 @@ import { Link, useNavigate } from 'react-router-dom';
 import { FaGithub } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 
-export default function ProjectCard({ img, title, description, technologies, githubLink }) {
+export default function ProjectCard({ img, title, description, technologies, siteLink, githubLink }) {
   const navigate = useNavigate();
 
   const handleCardClick = () => {
-    navigate('/project'); 
+    navigate('/project');
   };
 
   const stopPropagation = (event) => {
-    event.stopPropagation(); 
+    event.stopPropagation();
   };
 
   return (
@@ -36,14 +36,15 @@ export default function ProjectCard({ img, title, description, technologies, git
           </p>
         )}
         <div className="project-btns">
-          {/* View Project Button
-          <Link
-            className="view-project-btn"
-            to="/project"
+
+          {siteLink && <Link
+            className="view-live-project-btn"
+            to={siteLink}
             onClick={stopPropagation}
+            target="_blank"
           >
-            <GoArrowUpRight />
-          </Link> */}
+            Demo
+          </Link>}
 
           {/* GitHub Link */}
           <a
@@ -51,7 +52,7 @@ export default function ProjectCard({ img, title, description, technologies, git
             className="github"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={stopPropagation} 
+            onClick={stopPropagation}
           >
             <FaGithub />
           </a>

@@ -24,7 +24,8 @@ export default function ProjectsGrid() {
           img={headlinersImg}
           title="Headliners"
           description="Appointment scheduling app built for a local barbershop"
-          technologies="Flask, Bootstrap"
+          technologies="Flask, Bootstrap, SQLite"
+          siteLink="https://headliners-two.vercel.app/"
           githubLink="https://github.com/roccovulpis/Headliners"
         />
         <ProjectCard
@@ -48,6 +49,7 @@ export default function ProjectsGrid() {
               title="Calculator"
               description="Calculator with basic functionalities"
               technologies="HTML, CSS, JavaScript"
+              siteLink="https://digital-calculator-lilac.vercel.app/"
               githubLink="https://github.com/roccovulpis/Digital-Calculator"
             />
             <ProjectCard
@@ -55,6 +57,7 @@ export default function ProjectsGrid() {
               title="Portfolio"
               description="The site you are on right now"
               technologies="React, CSS, Vercel"
+              siteLink="https://roccovulpis.com/"
               githubLink="https://github.com/roccovulpis/Portfolio-Website"
             />
             <ProjectCard
