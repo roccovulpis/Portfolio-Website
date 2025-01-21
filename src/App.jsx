@@ -1,12 +1,12 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import NavbarComponent from './components/Navbar'
-import Home from './pages/Home'
-import ProjectDescription from './pages/ProjectDescription'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavbarComponent from './components/Navbar';
+import Home from './pages/Home';
+import ProjectDescription from './pages/ProjectDescription';
+import { Analytics } from '@vercel/analytics/react';
 
-import './App.css'
+import './App.css';
 
 function App() {
-
   return (
     <>
       <Router>
@@ -16,8 +16,9 @@ function App() {
           <Route path="/project" element={<ProjectDescription />} />
         </Routes>
       </Router>
+      <Analytics />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
