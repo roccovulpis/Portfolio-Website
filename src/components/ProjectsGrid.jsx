@@ -26,7 +26,7 @@ export default function ProjectsGrid() {
           title="Headliners"
           description="Appointment scheduling website built for a local barbershop"
           technologies="Flask, Bootstrap, SQLite"
-          siteLink="https://headliners-two.vercel.app/"
+          // siteLink="https://headliners-two.vercel.app/"
           githubLink="https://github.com/roccovulpis/Headliners"
         />
         <ProjectCard
