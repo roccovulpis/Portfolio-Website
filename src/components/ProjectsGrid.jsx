@@ -7,6 +7,7 @@ import montyImg from '../assets/project-logos/monty-hall.png';
 import calcImg from '../assets/project-logos/calculator.png';
 import portImg from '../assets/project-logos/portfolio-site.png';
 import weighImg from '../assets/project-logos/weighin.png';
+import teaImg from '../assets/project-logos/tea.png';
 import '../styles/ProjectsGrid.css';
 
 export default function ProjectsGrid() {
@@ -23,10 +24,19 @@ export default function ProjectsGrid() {
         <ProjectCard
           img={headlinersImg}
           title="Headliners"
-          description="Appointment scheduling app built for a local barbershop"
+          description="Appointment scheduling website built for a local barbershop"
           technologies="Flask, Bootstrap, SQLite"
           siteLink="https://headliners-two.vercel.app/"
           githubLink="https://github.com/roccovulpis/Headliners"
+        />
+        <ProjectCard
+          img={weighImg}
+          title="Weekly Weigh In"
+          description="Website that allows users to log their weights, set goals, and collaborate or compete with friends"
+          technologies="Flask, Bootstrap, SQLite"
+          siteLink="https://rvulpis.pythonanywhere.com/"
+          githubLink=" https://github.com/roccovulpis/Weekly-Weigh-In"
+          isInProgress={true}
         />
         <ProjectCard
           img={splitzrImg}
@@ -35,15 +45,16 @@ export default function ProjectsGrid() {
           technologies="React, CSS"
           githubLink="https://github.com/roccovulpis/Splitzr"
         />
-        <ProjectCard
-          img={weighImg}
-          title="Weekly Weigh In"
-          description="Website that allows users to log their weights, set goals, and collaborate or compete with friends"
-          technologies="Flask, Bootstrap"
-          githubLink=" https://github.com/roccovulpis/Weekly-Weigh-In"
-        />
         {showMore && (
           <>
+            <ProjectCard
+              img={teaImg}
+              title="Tea Cozy"
+              description="Tea shop website"
+              technologies="HTML, CSS"
+              siteLink="https://roccovulpis.github.io/Tea-Shop-Project/"
+              githubLink="https://github.com/roccovulpis/Tea-Shop-Project"
+            />
             <ProjectCard
               img={calcImg}
               title="Calculator"

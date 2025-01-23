@@ -1,10 +1,17 @@
 import React from 'react';
 import '../styles/ProjectCard.css';
 import { Link, useNavigate } from 'react-router-dom';
-import { FaGithub } from "react-icons/fa";
-import { GoArrowUpRight } from "react-icons/go";
+import { FaGithub } from 'react-icons/fa';
 
-export default function ProjectCard({ img, title, description, technologies, siteLink, githubLink }) {
+export default function ProjectCard({
+  img,
+  title,
+  description,
+  technologies,
+  siteLink,
+  githubLink,
+  isInProgress,
+}) {
   const navigate = useNavigate();
 
   const handleCardClick = () => {
@@ -17,6 +24,9 @@ export default function ProjectCard({ img, title, description, technologies, sit
 
   return (
     <div className="project-container" onClick={handleCardClick}>
+      {/* Diagonal Banner */}
+      {isInProgress && <div className="project-banner">Work in Progress</div>}
+
       {/* Image Section */}
       <div className="project-img-container">
         <img src={img} alt={title || 'Project Image'} loading="lazy" />
@@ -36,17 +46,16 @@ export default function ProjectCard({ img, title, description, technologies, sit
           </p>
         )}
         <div className="project-btns">
-
-          {siteLink && <Link
-            className="view-live-project-btn"
-            to={siteLink}
-            onClick={stopPropagation}
-            target="_blank"
-          >
-            Demo
-          </Link>}
-
-          {/* GitHub Link */}
+          {siteLink && (
+            <Link
+              className="view-live-project-btn"
+              to={siteLink}
+              onClick={stopPropagation}
+              target="_blank"
+            >
+              Demo
+            </Link>
+          )}
           <a
             href={githubLink}
             className="github"
