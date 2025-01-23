@@ -34,7 +34,7 @@ export default function ProjectsGrid() {
           title="Weekly Weigh In"
           description="Website that allows users to log their weights, set goals, and collaborate or compete with friends"
           technologies="Flask, Bootstrap, SQLite"
-          
+          siteLink="https://rvulpis.pythonanywhere.com/"
           githubLink=" https://github.com/roccovulpis/Weekly-Weigh-In"
           isInProgress={true}
         />
