@@ -44,6 +44,7 @@ export default function ProjectsGrid() {
           description="Bill-splitting app to simplify sharing expenses among friends"
           technologies="React, CSS"
           githubLink="https://github.com/roccovulpis/Splitzr"
+          isInProgress={true}
         />
         {showMore && (
           <>
