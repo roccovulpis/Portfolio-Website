@@ -25,9 +25,18 @@ export default function ProjectsGrid() {
           img={headlinersImg}
           title="Headliners"
           description="Appointment scheduling website built for a local barbershop"
-          technologies="Flask, Bootstrap, SQLite"
+          technologies="Flask, Bootstrap, SQLite, Vercel"
           siteLink="https://headliners-two.vercel.app/"
           githubLink="https://github.com/roccovulpis/Headliners"
+        />
+        <ProjectCard
+          img={splitzrImg}
+          title="Splitzr"
+          description="Bill-splitting app to simplify sharing expenses among friends"
+          technologies="React, CSS, Express.js, MongoDB, Vercel"
+          siteLink="https://splitzr.vercel.app/"
+          githubLink="https://github.com/roccovulpis/Splitzr"
+          isInProgress={true}
         />
         <ProjectCard
           img={weighImg}
@@ -36,14 +45,6 @@ export default function ProjectsGrid() {
           technologies="Flask, Bootstrap, SQLite"
           siteLink="https://rvulpis.pythonanywhere.com/"
           githubLink=" https://github.com/roccovulpis/Weekly-Weigh-In"
-          isInProgress={true}
-        />
-        <ProjectCard
-          img={splitzrImg}
-          title="Splitzr"
-          description="Bill-splitting app to simplify sharing expenses among friends"
-          technologies="React, CSS"
-          githubLink="https://github.com/roccovulpis/Splitzr"
           isInProgress={true}
         />
         {showMore && (
