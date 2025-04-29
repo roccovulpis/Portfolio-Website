@@ -12,6 +12,7 @@ import cssImg from '../assets/technology-logos/css.webp'
 import sqlImg from '../assets/technology-logos/sql.webp'
 import cSharpImg from '../assets/technology-logos/c-sharp.webp'
 import octaveImg from '../assets/technology-logos/octave.png'
+import nextImg from '../assets/technology-logos/next.png'
 
 import '../styles/SkillGrid.css'
 
@@ -20,6 +21,13 @@ export default function SkillGrid() {
     <>
       <h1>Technologies </h1>
       <div className='skill-grid'>
+      <SkillCard 
+        img={nextImg}
+        name='Next.js'
+        desc='React Framework'
+        link="https://nextjs.org"
+        imgBgColor ="hsl(0, 0.00%, 90.20%)" 
+      />
       <SkillCard 
         img={reactImg}
         name='React'
@@ -90,13 +98,13 @@ export default function SkillGrid() {
         link="https://flask.palletsprojects.com/en/stable/"
         imgBgColor ="hsl(0, 0.00%, 90.20%)"
       />
-      <SkillCard 
+      {/* <SkillCard 
         img={octaveImg}
         name='GNU Octave'
         desc='Scientific Programming Language'
         link="https://octave.org/"
         imgBgColor ='rgba(0, 122, 204, 0.2)'
-      />
+      /> */}
       <SkillCard 
         img={gitImg}
         name='Git'
